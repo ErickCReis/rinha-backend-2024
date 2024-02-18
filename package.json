@@ -1,0 +1,21 @@
+{
+  "name": "rinha-backend-2024",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch index.ts",
+    "build": "bun run build.ts",
+    "start": "bun run dist/index.js"
+  },
+  "dependencies": {
+    "@stricjs/app": "^1.0.0-rc.34",
+    "kysely": "^0.27.2",
+    "pg": "^8.11.3",
+    "superstruct": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.0",
+    "typescript": "^5.3.3"
+  }
+}
